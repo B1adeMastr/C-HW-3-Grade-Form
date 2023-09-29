@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Main1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -44,15 +44,15 @@ Partial Class Form1
         Label1.TabIndex = 1
         Label1.Text = "Label1"
         ' 
-        ' Form1
+        ' Main1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(341, 208)
         Controls.Add(Label1)
         Controls.Add(Button1)
-        Name = "Form1"
-        Text = "Form1"
+        Name = "Main1"
+        Text = "Student Scores"
         ResumeLayout(False)
         PerformLayout()
     End Sub

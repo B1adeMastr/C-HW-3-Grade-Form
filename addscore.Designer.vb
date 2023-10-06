@@ -64,8 +64,10 @@ Partial Class addscore
         ' 
         ' addscore
         ' 
+        AcceptButton = btnAdd
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        CancelButton = btnCancel
         ClientSize = New Size(290, 92)
         Controls.Add(btnAdd)
         Controls.Add(btnCancel)

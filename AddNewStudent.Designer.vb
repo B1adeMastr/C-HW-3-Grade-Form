@@ -135,8 +135,10 @@ Partial Class AddNewStudent
         ' 
         ' AddNewStudent
         ' 
+        AcceptButton = btnOK
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        CancelButton = btnCancel
         ClientSize = New Size(300, 179)
         Controls.Add(btnOK)
         Controls.Add(btnCancel)

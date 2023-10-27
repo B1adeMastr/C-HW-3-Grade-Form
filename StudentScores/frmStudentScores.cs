@@ -21,9 +21,9 @@ namespace StudentScores
 
         private void frmStudentScores_Load(object sender, EventArgs e)
         {
-            studentScores.Add("Colin Beary|100|100|100");
-            studentScores.Add("Viridian Joy|100|98|86");
-            studentScores.Add("Jack Atlas|89|99|90");
+            studentScores.Add("Bill Chipman|92|95|85");
+            studentScores.Add("Jane Doe|100|98|89");
+            studentScores.Add("John Smith|85|79|90");
             LoadStudentListBox();
         }
 

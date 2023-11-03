@@ -16,16 +16,6 @@ namespace StudentScores
         {
             InitializeComponent();
         }
-
-        private void btnAddUpdate_Click(object sender, EventArgs e)
-        {
-            if (IsValidScore())
-            {
-                Tag = Convert.ToInt32(txtScore.Text);
-                DialogResult = DialogResult.OK;
-            } 
-        }
-
         private void frmAddUpdateScore_Load(object sender, EventArgs e)
         {
             if (Text == "Update Score")
@@ -34,6 +24,15 @@ namespace StudentScores
                 txtScore.Text = Tag?.ToString();
 
             }
+        }
+
+        private void btnAddUpdate_Click(object sender, EventArgs e)
+        {
+            if (IsValidScore())
+            {
+                Tag = Convert.ToInt32(txtScore.Text);
+                DialogResult = DialogResult.OK;
+            } 
         }
 
         private bool IsValidScore()

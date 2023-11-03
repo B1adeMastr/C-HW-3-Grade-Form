@@ -113,7 +113,7 @@ namespace StudentScores
             }
 
             Tag = studentScores;
-            DialogResult result = DialogResult.OK;
+            DialogResult = DialogResult.OK;
 
         }
     }

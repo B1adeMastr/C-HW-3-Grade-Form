@@ -43,7 +43,7 @@ namespace StudentScores
                 string studentScores = txtName.Text;
                 foreach (int score in scoreList)
                 {
-                    studentScores += $"{score}";
+                    studentScores += $"|{score}";
                 }
                 Tag = studentScores;
                 DialogResult = DialogResult.OK;
@@ -123,6 +123,11 @@ namespace StudentScores
                 }
             }
             return errorMsg;
+        }
+
+        private void frmAddNewStudent_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
